@@ -307,3 +307,40 @@ height: 90%;
 padding-bottom: 25px;
 
 }
+
+
+.top_slider > div {
+  
+    width: 260px;
+    height: 270px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.top_slider{
+
+    width: auto;
+    height: 350px;
+    background-color: #F0F0F0;
+    margin-right: 68px;
+    margin-left: 68px;
+      padding: 20px;
+    position: relative;
+    float;
+}
+#top_img{
+
+    border-bottom: 2px solid red;
+    width: 100%;
+
+
+}
+.caption{
+    width: 50%;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
