@@ -8,6 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="slick.css">
 		<link rel="stylesheet" type="text/css" href="slick-theme.css">
 		<link rel="stylesheet" type="text/css" href="s.css">
+		<link rel="stylesheet" type="text/css" href="icon/style.css">
+		
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 		<script src="slick.js" type="text/javascript" charset="utf-8"></script>
 	</head>
@@ -123,87 +125,83 @@
 				</div>
 			</div>
 		</section>
-
-<section class="top_slider">
-
-    <div id="tut-icon">
-        <img src="Images/mp1.jpg" id="top_img"/>
-
-        <div class="caption">Some text</div>
-    </div>
-    <div id="vid-icon">
-        <img src="Images/mp2.jpg" id="top_img" />
-       <div class="caption">Some text</div>
-    </div>
-    <div id="add-icon">
-        <img src="Images/mp3.jpg"  id="top_img"/>
-       <div class="caption">Some text</div>
-    </div>
-     <div id="vid-icon">
-        <img src="Images/mp.jpg" id="top_img" />
-       <div class="caption">Some text</div>
-    </div>
-</section>
-
-<br>
-<br>
-<br>
-
 		
-		<section class="top slider top_background" >
-			
-			<div class="top_item">
+		<section class="top_slider top_background">
+			<figure>
 				<div class="item">
-					<img src="Images/mp.jpg" >
+					<img src="Images/mp.jpg" id="top_img"/>
 					<div class="item-overlay top">
-					<h1> Bondhu Tomar Jonno</h1>
-					<p> The telefilm Bonshu Tomar Jonno shows the intimate love story of Shumi and Shubro</p>
-
-
+						<h2 class="hover_title">Bondhu Tomar Jonno<h2>
+						<div class="overlay_class">
+							<span class="icon-star-full hover_icon"></span>
+							<h2 class="hover_rating"> 3.1 </h2>
+							<div class="hover_attribute">
+								<button class="play_btn hover_btn" type="submit">Play</button>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="top_title">
-					<p><a>Image 1</a></p>
-				</div>
-			</div>
-			
-
-			<div class="top_item">
+				<figcaption>Album name goes here
+				</figcaption>
+			</figure>
+			<figure>
 				<div class="item">
-					<img src="Images/mp1.jpg" >
-					<div class="item-overlay top">bottom to top</div>
-				</div>
-				<div class="top_title">
-					<p><a>Image 1</a></p>
-				</div>
-			</div>
-			
-			<div class="top_item">
-				<div class="item">
-					<img src="Images/mp2.jpg" >
-					<div class="item-overlay top">bottom to top</div>
-				</div>
-				<div class="top_title">
-					<p><a>Image 1</a></p>
-				</div>
-			</div>
-			
-			<div class="top_item">
-				<div class="item">
-					<img src="Images/mp3.jpg" >
+					<img src="Images/mp1.jpg" id="top_img"/>
 					<div class="item-overlay top">
-					<h1> Bondhu Tomar Jonno </h1>
-
-
+						<h2 class="hover_title">Bondhu Tomar Jonno<h2>
+						<div class="overlay_class">
+							<span class="icon-star-full hover_icon"></span>
+							<h2 class="hover_rating"> 3.1 </h2>
+							<div class="hover_attribute">
+								<button class="play_btn hover_btn" type="submit">Play</button>
+							</div>
+						</div>
 					</div>
-
 				</div>
-				<div class="top_title">
-					<p><a>Image 1</a></p>
+				<figcaption>Album name goes here
+				</figcaption>
+			</figure>
+			<figure>
+				<div class="item">
+					<img src="Images/mp2.jpg" id="top_img"/>
+					<div class="item-overlay top">
+						<h2 class="hover_title">Bondhu Tomar Jonno<h2>
+						<div class="overlay_class">
+							<span class="icon-star-full hover_icon"></span>
+							<h2 class="hover_rating"> 3.1 </h2>
+							<div class="hover_attribute">
+								<button class="play_btn hover_btn" type="submit">Play</button>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			</div>
+				<figcaption>Album name goes here
+				</figcaption>
+			</figure>
+			<figure>
+				<div class="item">
+					<img src="Images/mp3.jpg" id="top_img"/>
+					<div class="item-overlay top">
+						<h2 class="hover_title">Bondhu Tomar Jonno<h2> <br>
+						<br>
+						<br>
+						<br>
+						<div class="overlay_class">
+							<span class="icon-star-full hover_icon"></span>
+							<h2 class="hover_rating"> 3.1 </h2>
+							<div class="hover_attribute">
+								<button class="play_btn hover_btn" type="submit">Play</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<figcaption>Album name goes here
+				</figcaption>
+			</figure>
 		</section>
+		
+		
+		
 		<section >
 			<div class="heading">
 				<div class="title">
@@ -216,7 +214,12 @@
 		</section>
 		<section class="center slider">
 			<div class="carousel_item">
-				<img src="Images/beainshab.png" >
+			<div class="item">
+				<img src="Images/beainshab.png" id="carousel_img" >
+				<div class="item-overlay top">
+				
+				</div>
+				</div>
 				<p><a>Image 1</a></p>
 			</div>
 			<div class="carousel_item">
@@ -371,7 +374,6 @@
 	<button type="submit" id="more">Show Me More</button>
 </div>
 </section>
-<br>
 <footer>
 <div class="footer">
 	<div class="logo2">
@@ -396,7 +398,9 @@ $(document).on('ready', function() {
 $(".center").slick({
 infinite: true,
 slidesToShow: 5,
-slidesToScroll: 5
+slidesToScroll: 5,
+prevArrow:"<img class='a-left control-c prev slick-prev' src='Images/AST_arrow_left.png'>",
+nextArrow:"<img class='a-right control-c next slick-next' src='Images/arrow_right.png'>"
 });
 });
 $(document).on('ready', function() {
@@ -412,7 +416,9 @@ $(".channel").slick({
 /*dots: true,*/
 infinite: true,
 slidesToShow: 12,
-slidesToScroll: 4
+slidesToScroll: 4,
+prevArrow:"<img class='a-left control-c prev slick-prev' src='Images/AST_arrow_left.png'>",
+nextArrow:"<img class='a-right control-c next slick-next' src='Images/arrow_right.png'>"
 });
 });
 var slideIndex = 1;

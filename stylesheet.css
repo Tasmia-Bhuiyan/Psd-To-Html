@@ -35,9 +35,8 @@ font-size: 21px;
 font-weight: 700;
 opacity: 0.7;
 }
-
 nav li:hover {
-    opacity: 1;
+opacity: 1;
 }
 .navigation{
 float:left;
@@ -97,7 +96,6 @@ color: white;
 font-weight: bold;
 font-size: 18px;
 z-index: 2;
-
 }
 .next {
 right: 0;
@@ -251,6 +249,7 @@ opacity: 1;
 .carousel_item img{
 height: 126px;
 width: 224px;
+
 }
 .carousel_item p
 {
@@ -276,71 +275,112 @@ margin-top: -5%;
 background-color: transparent;
 }
 
-.top_item img{
-
-margin-right: 24px;
-    max-width: 100%;
-    height: auto;
-    border-bottom: 2px solid red;
-      position: relative;
-  padding-top: 0px;
-   overflow: hidden;
- 
-
-
-}
 .top_item p
 {
-
 padding-top: 20px;
 padding-left: 80px;
 clear: left;
 }
 
-.top_background{
+.top_slider{
+position: relative;
+margin-right: 80px;
+margin-left: 80px;
+width: auto;
 height: 386px;
 background-color: #F0F0F0;
-}
-.top_title{
-background-color: white;
-height: 90%;
-padding-bottom: 25px;
-
+text-align: center;
+margin-top: 20px;
 }
 
 
-.top_slider > div {
-  
-    width: 260px;
-    height: 270px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+figure {
     display: inline-block;
-    float: left;
-    margin-right: 20px;
+   
+   margin: 15px;
+   padding-top: 10px;
+}
+figure img {
+    vertical-align: top;
+    border-bottom: 2px solid red;
+    
 
+position: relative;
+padding-top: 0px;
+overflow: hidden;
+width: 260px;
+height: auto;
+}
+figure figcaption {
+  background-color: white;
+height: 90%;
+padding-bottom: 35px;
+
+padding-top: 20px;
+
+clear: left;
 }
 
-.top_slider{
+.play_btn{
+    color: white;
+    background-color: #6a3;
+    border-color: #6a3;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+        border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.icon-star-full:before {
+  content: "\e9d9";
+  color: red;
+}
 
-    width: auto;
-    height: 350px;
-    background-color: #F0F0F0;
-    margin-right: 68px;
-    margin-left: 68px;
-      padding: 20px;
-    position: relative;
+.item h2{
+
     float;
 }
-#top_img{
-
-    border-bottom: 2px solid red;
+.hover_title{
+    position: relative;
+    text-align: left;
     width: 100%;
-
-
 }
-.caption{
-    width: 50%;
-    background-color: white;
-    width: 100%;
-    margin-top: 0px;
-    padding-bottom: 20px;
+.overlay_class{
+    float: left;
+    position: relative;
+    display: inline-block;
+
 }
